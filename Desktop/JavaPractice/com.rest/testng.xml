@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RestAssured Test Suite" >
+<test name="Google APIs testing">
+<classes>
+<class name="com.googlerestapi.rest.GetStatusCodeTest"/>
+</classes>
+</test>
+</suite>
