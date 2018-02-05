@@ -21,7 +21,7 @@ public class GetJsonResponseTest {
   @Test
   public void test01()  {
     Response res  =given ().param ("query", "Churchgate Station")
-    .param ("key", "AIzaSyCMXt0k97b5KL1WWWlUB7Vci7yQgfsybqY")
+    .param ("key", "Xyz")
     .when()
     .get ("/maps/api/place/textsearch/xml")
     .then()
